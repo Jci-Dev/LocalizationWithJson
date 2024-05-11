@@ -1,0 +1,9 @@
+{
+  "Country": {
+    "CountryId": "Country",
+    "CountryCode": "Country Code",
+    "CountryName": "Country Name",
+    "Latitude": "Latitude",
+    "Longitude": "Longitude"
+  }
+}

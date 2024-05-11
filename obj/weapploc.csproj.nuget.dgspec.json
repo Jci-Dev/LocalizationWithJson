@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/vrods70/Dev/borrame/weapploc/weapploc.csproj": {}
+  },
+  "projects": {
+    "/Users/vrods70/Dev/borrame/weapploc/weapploc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/vrods70/Dev/borrame/weapploc/weapploc.csproj",
+        "projectName": "weapploc",
+        "projectPath": "/Users/vrods70/Dev/borrame/weapploc/weapploc.csproj",
+        "packagesPath": "/Users/vrods70/.nuget/packages/",
+        "outputPath": "/Users/vrods70/Dev/borrame/weapploc/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/vrods70/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/JoiningClouds/_packaging/JoiningClouds/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Localization": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.Extensions.Localization.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/Cellar/dotnet/8.0.3/libexec/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
